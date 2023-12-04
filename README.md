@@ -10,7 +10,8 @@ This repository contains an accurate implementation of "Graph Locally Linear Emb
   
 - **evaluate_embedding.py**: Provides code for evaluating graph embeddings.
   
-- **Demonstration.ipynb**: A Jupyter notebook demonstrating our LLE implementation and highlighting the differences from the LLE implementation in the Python package nxt-gem.
+- **evaluate_embedding.py**: Provides code for evaluating graph embeddings. This file is required to run **Demonstration.ipynb**. Ensure the following Python packages are also installed to run **Demonstration.ipynb**:
+	matplotlib, sklearn, pyspark, networkx, nxt-gem.
 
 ## Parameters
 
