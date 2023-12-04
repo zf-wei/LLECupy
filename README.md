@@ -21,6 +21,7 @@ pip install networkx cupy
 
 Make sure to check your GPU compatibility with Cupy and install the necessary GPU drivers if needed.
 
+
 ## Parameters
 
 The `lle_cupy(graph, dim)` function takes two parameters. The first parameter is a NetworkX graph, and the second parameter is the user-defined embedding dimension. It is important to note that the graph must be connected for the LLE algorithm to be applied successfully.
