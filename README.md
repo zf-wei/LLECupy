@@ -18,7 +18,7 @@ Our implementation of "Locally Linear Embedding" relies on the [networkx](https:
 
 ```bash
 pip install networkx cupy
-~~~
+```
 
 
 ## Parameters
