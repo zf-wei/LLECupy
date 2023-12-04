@@ -36,5 +36,6 @@ from LLE_Cupy import lle_cupy
 graph = ...  # Your connected NetworkX graph
 embedding_dimension = ...  # Your desired embedding dimension
 embedding_result = lle_cupy(graph, embedding_dimension)
+```
 
 
