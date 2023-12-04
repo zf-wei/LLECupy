@@ -14,13 +14,10 @@ This repository contains an accurate implementation of "Graph Locally Linear Emb
 
 ## Requirements
 
-Our implementation of "Locally Linear Embedding" relies on the [networkx](https://networkx.github.io/) package. Additionally, the [cupy](https://cupy.dev/) package is required, and a compatible GPU must be available on the machine to run Cupy efficiently.
+Our implementation of "Locally Linear Embedding" relies on the [networkx](https://networkx.github.io/) package. Additionally, the [cupy](https://cupy.dev/) package is required, and a compatible GPU must be available on the machine to run Cupy efficiently. Make sure to check your GPU compatibility with Cupy and install the necessary GPU drivers if needed.
 
 ```bash
 pip install networkx cupy
-
-Make sure to check your GPU compatibility with Cupy and install the necessary GPU drivers if needed.
-
 
 ## Parameters
 
