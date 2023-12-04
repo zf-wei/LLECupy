@@ -12,6 +12,14 @@ This repository contains an accurate implementation of "Graph Locally Linear Emb
 
 - **evaluate_embedding.py**: Provides code for evaluating graph embeddings. This is also required to run **Demonstration.ipynb**.
 
+## Requirements
+
+Our implementation of "Locally Linear Embedding" relies on the [networkx](https://networkx.github.io/) package. Additionally, the [cupy](https://cupy.dev/) package is required, and a compatible GPU must be available on the machine to run Cupy efficiently.
+
+```bash
+pip install networkx cupy
+
+Make sure to check your GPU compatibility with Cupy and install the necessary GPU drivers if needed.
 
 ## Parameters
 
@@ -28,3 +36,5 @@ from LLE_Cupy import lle_cupy
 graph = ...  # Your connected NetworkX graph
 embedding_dimension = ...  # Your desired embedding dimension
 embedding_result = lle_cupy(graph, embedding_dimension)
+
+
