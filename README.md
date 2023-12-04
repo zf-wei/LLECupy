@@ -8,10 +8,10 @@ This repository contains an accurate implementation of "Graph Locally Linear Emb
 
 - **LLE_Cupy.py**: Contains the provided implementation of LLE.
   
-- **evaluate_embedding.py**: Provides code for evaluating graph embeddings.
-  
-- **evaluate_embedding.py**: Provides code for evaluating graph embeddings. This file is required to run **Demonstration.ipynb**. Ensure the following Python packages are also installed to run **Demonstration.ipynb**:
-	matplotlib, sklearn, pyspark, networkx, nxt-gem.
+- **Demonstration.ipynb**: A Jupyter notebook demonstrating our LLE implementation and highlighting the differences from the LLE implementation in the Python package nxt-gem. Ensure the following Python packages are also installed to run this notebook: matplotlib, sklearn, pyspark, networkx, nxt-gem.
+
+- **evaluate_embedding.py**: Provides code for evaluating graph embeddings. This is also required to run **Demonstration.ipynb**.
+
 
 ## Parameters
 
