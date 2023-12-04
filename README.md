@@ -2,7 +2,7 @@
 
 **Implementation of Graph Locally Linear Embedding (LLE) using Cupy**
 
-This repository contains an accurate implementation of "Graph Locally Linear Embedding." The algorithm's details can be found in the paper ["Graph Embedding Techniques, Applications, and Performance: A Survey"](link-to-paper) by Palash Goyal and Emilio Ferrara (2018).
+This repository contains an accurate implementation of "Graph Locally Linear Embedding." The algorithm's details can be found in the paper ["Graph Embedding Techniques, Applications, and Performance: A Survey"](https://doi.org/10.1016/j.knosys.2018.03.022) by Palash Goyal and Emilio Ferrara (2018).
 
 ## Files
 
